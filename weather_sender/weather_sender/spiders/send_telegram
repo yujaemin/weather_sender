@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd $(cd "$(dirname "$0")" && pwd)
+PATH=$PATH:/usr/local/bin
+export PATH
+scrapy crawl weather
