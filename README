@@ -1,0 +1,5 @@
+오늘의 날씨를 텔레그램으로 보내는 프로그램
+첫 실행에서는 weather_sender/spiders/tg/bin/telegram-cli를 실행시킨 후
+내 핸드폰 텔레그램과 연동시켜야 한다.
+그리고 weather_sender/spiders/에 있는 weather.py에 유저 리스트를 고치면 된다.
+마지막으로 cron에 등록하자
